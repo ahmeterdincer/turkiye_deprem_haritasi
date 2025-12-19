@@ -1,7 +1,7 @@
 ﻿import folium.map
 import pandas as pd
 
-df = pd.read_excel(r'C:\Users\EXCALIBUR\OneDrive\Masaüstü\Python\deprem_proj2\deprem.xlsx')
+df = pd.read_excel("Excel")
 
 #eksik veriler var mı ?
 # print("\nEksik veri var mı ?")
@@ -75,3 +75,4 @@ for idx , row in df_clean.iterrows():
 
 m.save('depremler_haritası.html')
 print("İşlem gerçekleşti")
+
