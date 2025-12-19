@@ -1,0 +1,1 @@
+# turkiye_deprem_haritasi
